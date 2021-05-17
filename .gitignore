@@ -3,9 +3,11 @@
 __pycache__/
 *.py[cod]
 *$py.class
-.DS_Store
+**/.DS_Store
 venv/.DS_Store
-
+**/bot-debug.log
+.idea
+venv/bot-debug.log
 # C extensions
 *.so
 bin/
