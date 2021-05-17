@@ -27,7 +27,6 @@ def welcome(message):
 
     bot.send_message(message.chat.id, "Если хочешь пройти тест - нажми /quiz\nЕсли хочешь посмотреть на милых животных "
                                       "- нажми /animals")
-
     bot.send_message(message.chat.id, message.from_user.first_name + " , ты помылся?", reply_markup=gen_markup())
 
 
